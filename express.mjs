@@ -27,7 +27,7 @@ app.post("/todos", (req, res) => {
   res.json({ data: newTodo });
 });
 
-// server on port 8000
+// server on port 8000 
 app.listen(8000, () => {
   console.log("Server on http://localhost:8000");
 });
